@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*NAVIGATION BAR*/
+.navigation{
+    position: sticky !important;
+    top: 0;
+    z-index: 100;
+}
+.navbar{
+    background-image: linear-gradient(to right,blue,rgb(0, 183, 255));
+    padding: 0 !important;
+}
+.navbar-nav li{
+    padding: 0 10px;
+}
+.navbar-nav li a{
+    color: white;
+}
+.navbar-brand{
+    margin-left: 20px;
+}
+
+/*INTRODUCTION AREA*/
+.head{
+    background-image: linear-gradient(to right,blue,rgb(0, 183, 255));
+    color: white;
+    padding-top: 3%;
+}
+.head .container .row .col-md-12 p{
+    font-weight: 400;
+    font-size: 40px;
+}
+
+
+
+/*MAIN AREA*/
+.main{
+    padding: 3% 0;
+}
+.main .container .row .col-md-3{
+    padding: 2%;
+}
+.main .container .row .col-md-3 .card{
+    border-radius: 10px;
+}
+.main .container .row .col-md-3 .card:hover{
+    box-shadow: 0 0 3px blue;
+}
+.main .container .row .col-md-3 .card .card-body .btn{
+    width: 100px;
+    background-color: blue;
+    border: none;
+}
+
+
+/*footer*/
+.foot{
+    background-image: linear-gradient(to right,blue,rgb(0, 183, 255)) !important;
+}
+.foot img{
+    width: 100%;
+}
+.foot .container .row{
+    padding-top: 4%;
+}
+.foot .container .row .col-md-6 img{
+    margin-bottom: 20px;
+}
+.foot .container .row .col-md-6 p{
+    color: white;
+    font-weight: 400;
+}
+.foot .container .row .col-md-6 .ssh{
+    margin: 30px 0;
+    font-weight: 400;
+    font-size: 25px;
+}
+.foot .container .row .col-md-6 svg{
+    margin-right: 15px;
+}
+.foot .container .row .col-md-6 svg:hover{
+    transform: translateY(-10px);
+}
